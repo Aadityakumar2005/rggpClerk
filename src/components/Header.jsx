@@ -2,7 +2,6 @@ import fb from "../assets/facebook.svg";
 import yt from "../assets/youtube.svg";
 import tw from "../assets/square-twitter.svg";
 import middle from "../assets/middle.png";
-import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
@@ -19,7 +18,7 @@ function Header(props) {
         </div>
         <p className='text-blue-700 font-bold font-serif mx-2.5 text-center'>CALL US TODAY!: {props.number}</p>
         <div className="flex justify-center">
-            <Link to="/contact" className='text-white font-bold font-serif mx-2.5'>Contact Us</Link>
+            <p className='text-white font-bold font-serif mx-2.5'>Contact Us</p>
             <p className='text-white font-bold font-serif mx-2.5'>Login</p>
         </div>
       </div >
