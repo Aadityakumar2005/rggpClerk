@@ -19,7 +19,7 @@ function Header(props) {
         </div>
         <p className='text-blue-700 font-bold font-serif mx-2.5 text-center'>CALL US TODAY!: {props.number}</p>
         <div className="flex justify-center">
-            <Link to="contact" className='text-white font-bold font-serif mx-2.5'>Contact Us</Link>
+            <Link to="/contact" className='text-white font-bold font-serif mx-2.5'>Contact Us</Link>
             <p className='text-white font-bold font-serif mx-2.5'>Login</p>
         </div>
       </div >
